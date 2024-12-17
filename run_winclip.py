@@ -22,5 +22,5 @@ if __name__ == '__main__':
             pool.apply_async(os.system, (sh_method,))
 
     pool.close()
-    pool.join()  # 等待进程结束
+    pool.join()  
 
